@@ -85,7 +85,7 @@ function Landing() {
           <h2 className="fw-light">Great Experience in Building</h2>
           <h1 className="fw-bold">We Build For A Better Future</h1>
           <p className="my-4">
-            Sri Sandhya Engineering is a civil works company which aims to proved quality services to people since 2005.
+            Sri Sandhya Engineering is a civil works company which aims to provide quality services to people since 2005.
           </p>
           <button className="btn btn-warning btn-lg" aria-label="Let's get started">
             Let’s Get Started
