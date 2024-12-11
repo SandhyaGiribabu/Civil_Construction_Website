@@ -85,8 +85,7 @@ function Landing() {
           <h2 className="fw-light">Great Experience in Building</h2>
           <h1 className="fw-bold">We Build For A Better Future</h1>
           <p className="my-4">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout.
+            Sri Sandhya Engineering is a civil works company which aims to proved quality services to people since 2005.
           </p>
           <button className="btn btn-warning btn-lg" aria-label="Let's get started">
             Let’s Get Started
