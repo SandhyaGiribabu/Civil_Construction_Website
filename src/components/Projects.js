@@ -63,95 +63,93 @@ import P15 from './assets/PastProjects/P15.jpg';
 import P16 from './assets/PastProjects/P16.jpg'; 
 import P17 from './assets/PastProjects/P17.jpg'; 
 // Array of images for latest projects
-const latestProjectImages = [L17, L28, L29, L30, L31, L32, L33, L34, L35, L36, L37, L38, L39, L40, L41, L42, L44, L45, L46, L1, L2, L3, L4, L5, L6, L7, L8, L9, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L20, L21, L22, L23, L24, L25, L26];
+const latestProjectImages = [L7,L4,L30,L23, L28, L25, L31, , L35, L36, L37, L38, L39, L40, L41, L42, L44, L45, L46, L17, L2, L3, L1, L5, L6, L7, L8, L9, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L20, L21, L22,  L24, L29];
 
 
 const pastProjects = [
   {
-    title: "Residential Complex",
-    date: "January 2022",
-    image: P1,
-  },
-  {
-    title: "Shopping Mall",
-    date: "March 2022",
-    image: P2,
-  },
-  {
-    title: "Shopping Mall",
-    date: "March 2022",
-    image: P3,
-  },
-  {
-    title: "Shopping Mall",
-    date: "March 2022",
-    image: P4,
-  },
-  {
-    title: "Shopping Mall",
-    date: "March 2022",
-    image: P5,
-  },
-  {
-    title: "Shopping Mall",
-    date: "March 2022",
-    image: P6,
-  },
- 
-  {
-    title: "Shopping Mall",
+    
+    title: "Shed work",
     date: "March 2022",
     image: P7,
   },
   {
-    title: "Shopping Mall",
+    title: "Shed work",
     date: "March 2022",
     image: P8,
   },
   {
-    title: "Shopping Mall",
+    title: "Shed Work",
+    date: "January 2022",
+    image: P1,
+  },
+  {
+    title: "Puff Panelling",
+    date: "March 2022",
+    image: P2,
+  },
+  {
+    title: "Sliding Doors",
+    date: "March 2022",
+    image: P3,
+  },
+  {
+    title: "Puff panelling - Office",
+    date: "March 2022",
+    image: P4,
+  },
+  {
+    title: "Shed work",
+    date: "March 2022",
+    image: P5,
+  },
+  {
+    title: "Shed work",
+    date: "March 2022",
+    image: P6,
+  },
+ 
+  
+  {
+    title: "Shed work - Office Construction",
     date: "March 2022",
     image: P9,
   },
   {
-    title: "Shopping Mall",
+    title: "Fencing Work - Barbed Wires",
     date: "March 2022",
     image: P10,
   },
   {
-    title: "Shopping Mall",
+    title: "Fencing Work - Aluminium Rod",
     date: "March 2022",
     image: P11,
   },
   {
-    title: "Shopping Mall",
+    title: "Greenhouse Tent",
     date: "March 2022",
     image: P12,
   },
   {
-    title: "Shopping Mall",
+    title: "Sliding Gates with Personalised Designs",
     date: "March 2022",
     image: P13,
   },
   {
-    title: "Shopping Mall",
+    title: "Helipad for drones",
     date: "March 2022",
     image: P14,
   },
   {
-    title: "Shopping Mall",
+    title: "Farm Office",
     date: "March 2022",
     image: P15,
   },{
-    title: "Shopping Mall",
+    title: "Tool Box",
     date: "March 2022",
     image: P16,
   },
-  {
-    title: "Shopping Mall",
-    date: "March 2022",
-    image: P17,
-  }
+  
 ];
 
 function Projects() {
@@ -278,19 +276,20 @@ function Projects() {
           {/* Latest Projects */}
           <section className="mb-5">
             <h2 className="text-center mb-4" style={{ fontWeight: "bold", fontSize: "2rem" }}>
-              Latest Projects
+            Latest Project - Constructing an Office Above a Tank<span style={{ color: "darkorange" }}> </span> 
             </h2>
 
             {/* Carousel */}
             <div className="position-relative">
               <div className="d-flex justify-content-center align-items-center">
                 <button
-                  className="btn btn-light position-absolute start-0"
+                  className="btn position-absolute start-0"
                   style={{
                     borderRadius: "50%",
                     width: "50px",
                     height: "50px",
                     zIndex: 10,
+                    backgroundColor:"orange"
                   }}
                   onClick={prevSlide}
                 >
@@ -315,12 +314,14 @@ function Projects() {
                 </div>
 
                 <button
-                  className="btn btn-light position-absolute end-0"
+                  className="btn  position-absolute end-0"
                   style={{
                     borderRadius: "50%",
                     width: "50px",
                     height: "50px",
                     zIndex: 10,
+                    backgroundColor:"orange"
+
                   }}
                   onClick={nextSlide}
                 >
@@ -333,7 +334,7 @@ function Projects() {
           {/* Past Projects */}
           <section>
             <h2 className="text-center mb-4" style={{ fontWeight: "bold", fontSize: "2rem" }}>
-              Past Projects
+              Past Projects - Providing Solutions of every kind
             </h2>
             <div className="row">
               {pastProjects.map((project, index) => (
@@ -349,7 +350,6 @@ function Projects() {
                       <h5 className="card-title" style={{ fontWeight: "bold" }}>
                         {project.title}
                       </h5>
-                      <p className="text-muted">{project.date}</p>
                     </div>
                   </div>
                 </div>
